@@ -1,2 +1,9 @@
-rootProject.name = 'sample-layer-gatekeeper'
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenLocal()
+        mavenCentral()
+    }
+}
 
+rootProject.name = 'sample-layer-gatekeeper'
